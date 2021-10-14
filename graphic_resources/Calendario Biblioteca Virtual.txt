@@ -1,0 +1,24 @@
+########## DESARROLLO - VIRTUAL LIBRARY ##########
+1. Crear el prototipo de las ventanas
+Ventanas(9):
+Login
+Registrarse
+Menu principal
+Seleccion del libro
+Perfil
+Editar
+Configuracion
+Cambiar contrasena
+Eliminar cuenta
+
+2. Escribir el codigo orientado a objetos, con conexion a base de datos
+
+########## CALENDARIO ##########
+Aprendizaje tkinter, figma Lunes 06/09/21 - Domingo 19/09/21
+Prototipo de ventanas figma Lunes 20/09/21 - Miercoles 22/09/21
+Desarrollo del codigo con conexion a base de datos (POO) Jueves 23/09/21 - Domingo 03/10/21
+
+
+
+
+

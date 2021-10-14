@@ -1,0 +1,99 @@
+####### BIBLIOTECA VIRTUAL ##########
+
+####### LOGIN  ##########
+[VENTANA]
+
+- Usuario (ENTRADA)
+- Contrasena (ENTRADA)
+-Iniciar sesion (BOTON)
+-Registrarse (BOTON)
+
+#BOTON SALIR
+
+########## REGISTRARSE ##########
+[VENTANA]
+
+-Nombre (ENTRADA)
+-Apellido (ENTRADA)
+-Usuario (Unico ENTRADA)
+-Contrasena (ENTRADA)
+-Aceptar (BOTON)
+#recursividad al login
+
+#BOTON CANCELAR
+
+########## ACCESO- MENU(DESPUES DE LOGIN) ##########
+[VENTANA]
+
+-CATEGORIAS
+#Bienvenido @Usuario
+Fantasia
+	[VENTANA]
+	#Se muestra la portada del libro 	
+	informacion acerca de este y una resena
+	EVENTO: CLICK
+	Abrir pdf
+Ciencia Ficcion
+	[VENTANA]
+	#Se muestra la portada del libro 		
+	informacion acerca de este y una resena
+	EVENTO: CLICK
+	Abrir pdf 
+Drama
+	[VENTANA]
+	#Se muestra la portada del libro 		
+	informacion acerca de este y una resena
+	EVENTO: CLICK
+	Abrir pdf
+
+-BOTONES EN EL MENU PRINCIPAL
+	CATEGORIAS
+	PERFIL
+	CONFIGURACION
+	#CERRAR SESION
+
+########## PERFIL(MENU PRINCIPAL-BOTON) ##########
+[VENTANA]
+Datos de la cuenta
+
+-BOTON EDITAR
+
+########## EDITAR(PERFIL-BOTON) ##########
+[VENTANA]
+-Nombre (ENTRADA)
+-Apellido (ENTRADA)
+-Usuario (Unico ENTRADA))
+
+-Aceptar (BOTON)
+#recursividad a perfil
+#BOTON CANCELAR
+
+########## CONFIGURACION (MENU PRINCIPAL-BOTON) ##########
+[VENTANA]
+-Cambiar contrasena
+-Eliminar cuenta
+
+########## Cambiar contrasena (Configuracion) ##########
+[VENTANA]
+Actual contrasena (ENTRADA)
+Nueva contrasena (ENTRADA)
+Confirmar (BOTON)
+#BOTON CANCELAR
+
+########## Eliminar cuenta (Configuracion) ##########
+[VENTANA]
+Contrasena (ENTRADA)
+#Mensaje por definir
+Confirmar (BOTON)
+#Recursividad al login
+
+
+
+
+
+
+
+
+
+
+

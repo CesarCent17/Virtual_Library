@@ -1,0 +1,19 @@
+IDENTIFICACION:
+####### ENTIDADES #######
+Usuario
+Libros
+
+####### PAQUETES #######
+Entrada
+ConexionMysql
+Verificacion
+Nucleo
+
+####### REQUISITOS #######
+Figma
+Mysql
+Python
+Tkinter
+
+
+
